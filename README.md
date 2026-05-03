@@ -29,30 +29,6 @@ A cross-platform mobile application built for the University of Pretoria's INF 3
 
 ---
 
-## 📁 Project Structure
-filmlog/
-│
-├── src/
-│   ├── app/
-│   │   ├── pages/
-│   │   │   ├── login/          # Login & Sign Up page
-│   │   │   ├── search/         # Movie search via IMDb API
-│   │   │   ├── movie-details/  # Movie info, Watchlist & Watched actions
-│   │   │   ├── watchlist/      # Personal Watchlist management
-│   │   │   └── watched/        # Watched List with rewatch counter
-│   │   ├── services/
-│   │   │   ├── movie.ts        # IMDb API service (HttpClient)
-│   │   │   └── storage.ts      # Local storage service (Ionic Storage)
-│   │   ├── tabs/               # Tab navigation layout
-│   │   ├── app-routing.module.ts
-│   │   └── app.module.ts
-│   ├── global.scss
-│   └── index.html
-│
-└── README.md
-
----
-
 ## ⚙️ Getting Started
 
 ### Prerequisites
