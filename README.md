@@ -1,4 +1,4 @@
-# FilmLog – Personal Movie Tracking Mobile Application
+# 🎬 FilmLog – Personal Movie Tracking Mobile Application
 
 A cross-platform mobile application built for the University of Pretoria's INF 354 module. FilmLog is a movie discovery and personal tracking platform that allows users to search for real movies, manage a personal Watchlist, and track movies they have watched — modelled after real-world apps like Letterboxd and IMDb.
 
@@ -29,6 +29,29 @@ A cross-platform mobile application built for the University of Pretoria's INF 3
 
 ---
 
+## 📁 Project Structure
+
+```
+filmlog/
+│
+└── src/
+    └── app/
+        ├── pages/
+        │   ├── login/          # Login & Sign Up page
+        │   ├── search/         # Movie search via IMDb API
+        │   ├── movie-details/  # Movie info, Watchlist & Watched actions
+        │   ├── watchlist/      # Personal Watchlist management
+        │   └── watched/        # Watched List with rewatch counter
+        ├── services/
+        │   ├── movie.ts        # IMDb API service (HttpClient)
+        │   └── storage.ts      # Local storage service (Ionic Storage)
+        ├── tabs/               # Tab navigation layout
+        ├── app-routing.module.ts
+        └── app.module.ts
+```
+
+---
+
 ## ⚙️ Getting Started
 
 ### Prerequisites
@@ -36,9 +59,10 @@ A cross-platform mobile application built for the University of Pretoria's INF 3
 - [Ionic CLI](https://ionicframework.com/docs/cli) (`npm install -g @ionic/cli`)
 
 ### Setup & Run
+
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/filmlog.git
+git clone https://github.com/YOUR_USERNAME/filmlog.git
 cd filmlog
 
 # Install dependencies
