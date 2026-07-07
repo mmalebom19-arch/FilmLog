@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37012.4 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilmLogAPI", "FilmLogAPI.csproj", "{DB6B2B4B-C1ED-4199-B8E2-06768A78BEDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilmLogAPI.Tests", "..\FilmLogAPI.Tests\FilmLogAPI.Tests.csproj", "{822BA70C-BCC7-4787-A7BD-638DF59CD2C1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB6B2B4B-C1ED-4199-B8E2-06768A78BEDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB6B2B4B-C1ED-4199-B8E2-06768A78BEDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB6B2B4B-C1ED-4199-B8E2-06768A78BEDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB6B2B4B-C1ED-4199-B8E2-06768A78BEDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{822BA70C-BCC7-4787-A7BD-638DF59CD2C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{822BA70C-BCC7-4787-A7BD-638DF59CD2C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{822BA70C-BCC7-4787-A7BD-638DF59CD2C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{822BA70C-BCC7-4787-A7BD-638DF59CD2C1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5793A63A-E1A5-4345-A6FE-83D5733F4D5C}
+	EndGlobalSection
+EndGlobal
